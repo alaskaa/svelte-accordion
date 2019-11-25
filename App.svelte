@@ -24,7 +24,8 @@
     margin: 50px 0;
   }
 
-  h1 {
+  h1,
+  h2 {
     text-align: center;
   }
 </style>
