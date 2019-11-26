@@ -46,9 +46,8 @@
   }
 
   .accordion_item--data img {
-    height: 250px;
-    padding: 10px;
     text-align: left;
+    width: 100%;
   }
 
   .accordion_item--data ul {

@@ -19,6 +19,10 @@
 </script>
 
 <style>
+  * {
+    box-sizing: border-box;
+  }
+
   main {
     font-family: sans-serif;
     margin: 50px 0;
@@ -36,6 +40,8 @@
   <p>... loading doggos</p>
   {:then doggos}
   <Accordion onlineGoodBoisAndGurls={doggos}/>
+  {:catch error}
+	<p style="color: red">Too many good doggos out on walks</p>
   {/await}
   <h2>They're good dogs, Brent!</h2>
 </main>
